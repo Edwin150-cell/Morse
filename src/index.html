@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductor de Código Morse</title>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Traductor de Código Morse</h1>
+        <p class="subtitulo">Convierte texto a morse o morse a texto fácilmente.</p>
+
+        <!-- Botón para cambiar el modo de traducción -->
+        <div class="seccion-boton">
+            <button id="btnCambiarModo" class="btn-modo">Modo: Texto a Morse</button>
+        </div>
+
+        <!-- Caja de entrada de texto -->
+        <div class="caja-texto">
+            <label id="etiquetaEntrada" for="textoEntrada">Escribe tu texto aquí:</label>
+            <textarea id="textoEntrada" placeholder="Escribe algo..."></textarea>
+        </div>
+
+        <!-- Botones de acción -->
+        <div class="botones-accion">
+            <button id="btnTraducir" class="btn-principal">Traducir</button>
+            <button id="btnBorrar" class="btn-secundario">Borrar</button>
+        </div>
+
+        <!-- Caja de resultado -->
+        <div class="caja-texto">
+            <label for="textoSalida">Resultado:</label>
+            <textarea id="textoSalida" readonly placeholder="Aquí aparecerá la traducción..."></textarea>
+        </div>
+    </div>
+
+</body>
+</html>
